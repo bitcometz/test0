@@ -1,4 +1,4 @@
-**run_pbjelly.py** Quick Start
+**run_pbjelly.py**
 ====================================
 
 run_pbjelly.py, do the gapcloser with long reads sequencings.
