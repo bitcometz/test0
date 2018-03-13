@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-EvaEngine - a php development engine
+run_pbjelly - a faster gapcloser tool
 =====================================
 
 Contents:
