@@ -1,6 +1,8 @@
 **run_pbjelly.py**
 ====================================
 
+.. image:: images/pipelines.png
+
 run_pbjelly.py, do the gapcloser with long reads sequencings.
 Firstly, it will filtered out reads which are not related to 
 This script is used to generate shell for 
