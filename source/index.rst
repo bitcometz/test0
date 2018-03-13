@@ -12,7 +12,6 @@ Contents:
    :maxdepth: 1
 
    run_pbjelly
-   en/quickstart
 
 
 Indices and tables
