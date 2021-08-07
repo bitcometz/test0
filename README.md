@@ -6,9 +6,9 @@ titled
 Description of each folder and subfolder
 ##############################################################################################
 
-.
 |-- scdata
    All Processsed scRNA-seq data with annotated cell types 
+   
    - singlecell_datasets.xlsx: Description of all scRNA-seq datasets used to construct gene programs
    - *.h5ad: HDF5 files corresponding to each scRNA-seq with annotated cell types  
 
@@ -26,6 +26,7 @@ Description of each folder and subfolder
          	  (*_annotated represents subsets of * which have distinct annotation) 
 
 |-- annotations 
+
     - Contains all annotations linking genes in gene score with RoadmapUABC enhancer-gene linking strategy.
     |-- cell_type_programs : Annotations for all cell type gene programs
     |-- disease_progression_programs: Annotations for all disease progression programs 
@@ -33,11 +34,15 @@ Description of each folder and subfolder
     	|-- nmf: Annotations for all cellular process programs for a tissue 
 	|-- nmf_disease_healthy: Annotations for all cellular process programs for disease +healthy tissue
 
--- sclinker_results 
+|-- sclinker_results 
+
    - Contains heritability analysis results for each annotation in the 'annotations' directory.
+ 
+ 
    |-- cell_type_programs : Heritability analysis results for annotations in annotations/cell_type_programs
    |-- disease_progression_programs: Heritability analysis results for annotations in annotations/disease_progression_programs
    |-- cellular_process_programs
+   
        |-- nmf: Heritability analysis results for annotations in annotations/cellular_process_programs/nmf
        |-- nmf_disease_healthy: Heritability analysis results for annotations in annotations/cellular_process_programs/nmf_disease_healthy
 
